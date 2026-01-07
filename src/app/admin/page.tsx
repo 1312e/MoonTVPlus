@@ -6096,6 +6096,7 @@ const SiteConfigComponent = ({
         TMDBApiKey: config.SiteConfig.TMDBApiKey || '',
         TMDBProxy: config.SiteConfig.TMDBProxy || '',
         BannerDataSource: config.SiteConfig.BannerDataSource || 'Douban',
+        RecommendationDataSource: config.SiteConfig.RecommendationDataSource || 'Mixed',
         PansouApiUrl: config.SiteConfig.PansouApiUrl || '',
         PansouUsername: config.SiteConfig.PansouUsername || '',
         PansouPassword: config.SiteConfig.PansouPassword || '',
