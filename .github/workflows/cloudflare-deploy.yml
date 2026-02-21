@@ -1,6 +1,8 @@
 name: Deploy to Cloudflare
-
 on:
+  push:
+    branches:
+      - main  # 注意：如果你的主分支名字叫 dev，请把这里的 main 改为 dev
   workflow_dispatch:
 
 concurrency:
